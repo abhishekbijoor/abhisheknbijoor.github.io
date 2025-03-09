@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300">
+  <!-- Dashboard background -->
+  <rect x="0" y="0" width="400" height="300" fill="#f8f8f8"/>
+  
+  <!-- Canvas interface -->
+  <rect x="20" y="20" width="360" height="260" rx="5" fill="white" stroke="#ddd" stroke-width="2"/>
+  
+  <!-- Header -->
+  <rect x="20" y="20" width="360" height="50" rx="5" fill="#B91C1C"/>
+  <text x="40" y="50" font-family="Arial" font-size="20" font-weight="bold" fill="white">Canvas Clone</text>
+  <circle cx="350" cy="45" r="15" fill="white" opacity="0.2"/>
+  <text x="345" y="50" font-family="Arial" font-size="15" font-weight="bold" fill="white">A</text>
+  
+  <!-- Navigation -->
+  <rect x="20" y="70" width="360" height="30" fill="#f1f1f1"/>
+  <text x="40" y="90" font-family="Arial" font-size="12" fill="#333">Dashboard</text>
+  <text x="120" y="90" font-family="Arial" font-size="12" fill="#666">Courses</text>
+  <text x="180" y="90" font-family="Arial" font-size="12" fill="#666">Papers</text>
+  <text x="240" y="90" font-family="Arial" font-size="12" fill="#666">Events</text>
+  <text x="300" y="90" font-family="Arial" font-size="12" fill="#666">Grades</text>
+  
+  <!-- Content area - Paper submissions section -->
+  <rect x="40" y="120" width="150" height="140" rx="5" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <text x="55" y="140" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Research Papers</text>
+  
+  <!-- Paper items -->
+  <rect x="50" y="150" width="130" height="30" rx="3" fill="white" stroke="#eee" stroke-width="1"/>
+  <text x="60" y="170" font-family="Arial" font-size="10" fill="#333">AI Ethics Paper</text>
+  <circle cx="165" cy="165" r="8" fill="#10B981"/>
+  <text x="165" y="168" font-family="Arial" font-size="8" fill="white">✓</text>
+  
+  <rect x="50" y="190" width="130" height="30" rx="3" fill="white" stroke="#eee" stroke-width="1"/>
+  <text x="60" y="210" font-family="Arial" font-size="10" fill="#333">ML Research</text>
+  <circle cx="165" cy="205" r="8" fill="#F59E0B"/>
+  <text x="162" y="208" font-family="Arial" font-size="8" fill="white">!</text>
+  
+  <!-- Event registration section -->
+  <rect x="210" y="120" width="150" height="140" rx="5" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <text x="235" y="140" font-family="Arial" font-size="14" font-weight="bold" fill="#333">Events</text>
+  
+  <!-- Event items -->
+  <rect x="220" y="150" width="130" height="45" rx="3" fill="white" stroke="#eee" stroke-width="1"/>
+  <text x="230" y="170" font-family="Arial" font-size="10" font-weight="bold" fill="#333">Tech Conference</text>
+  <text x="230" y="185" font-family="Arial" font-size="8" fill="#666">Mar 15, 2025 • Registered</text>
+  
+  <rect x="220" y="205" width="130" height="45" rx="3" fill="white" stroke="#eee" stroke-width="1"/>
+  <text x="230" y="225" font-family="Arial" font-size="10" font-weight="bold" fill="#333">Hackathon</text>
+  <text x="230" y="240" font-family="Arial" font-size="8" fill="#666">Apr 10, 2025 • Open</text>
+  
+  <!-- Notification badge -->
+  <circle cx="340" cy="80" r="8" fill="#DC2626"/>
+  <text x="340" y="83" font-family="Arial" font-size="8" fill="white">3</text>
+</svg>
